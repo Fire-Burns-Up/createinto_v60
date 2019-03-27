@@ -57,6 +57,8 @@ body {
           fill: black;
           -webkit-mask: url(#mask);
           mask: url(#mask); }
+  body .lowfi {
+    color: #777; }
   body .small {
     font-size: 1rem; }
   body .reveal .controls {
@@ -64,3 +66,6 @@ body {
   body .readme {
     voice-family: male;
     richness: 70; }
+  body ul.brands li {
+    display: inline-block;
+    padding-right: 10px; }

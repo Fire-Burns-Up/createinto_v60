@@ -70,6 +70,9 @@ body{
     }
 
   }
+  .lowfi{
+    color:#777;
+  }
   .small{
     font-size: 1rem;
   }
@@ -81,5 +84,11 @@ body{
   .readme{
     voice-family: male;
     richness: 70;
+  }
+  ul.brands{
+    li{
+      display:inline-block;
+      padding-right:10px;
+    }
   }
 }
